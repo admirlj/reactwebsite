@@ -1,6 +1,7 @@
 .navigation {
   position: sticky;
   top: 0px;
+  z-index: 99;
 }
 
 nav {
@@ -33,7 +34,7 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 640px) {
   .logo {
     width: 120px;
   }

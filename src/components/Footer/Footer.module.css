@@ -54,7 +54,7 @@ h3 {
   row-gap: 40px;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 640px) {
   footer {
     display: flex;
     column-gap: 20px;
