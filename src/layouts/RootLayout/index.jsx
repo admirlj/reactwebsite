@@ -1,10 +1,10 @@
-import React from 'react'
 import { Outlet } from 'react-router'
+import Navigation from '../../components/Navigation'
 
 export default function RootLayout() {
   return (
     <>
-        <nav>Navigation</nav>
+        <Navigation />
             <Outlet />
         <footer>Footer</footer>
     </>
