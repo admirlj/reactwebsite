@@ -12,7 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* Colors */
   --black-2: #0e1010;
+  --grey-1:#dcf2f499;
 
 }
 
