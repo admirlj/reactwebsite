@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import circle from "../../assets/circle.png";
 import five from '../../assets/500.png'
 import Team from "../../components/Page/Home/Components/Team";
+import Software from "../../components/Page/Home/Components/Software";
 
 export default function Homepage() {
   return (
@@ -42,6 +43,11 @@ export default function Homepage() {
         noPadding
       >
         <Team />
+      </Section>
+      <Section>
+        <Container>
+          <Software />
+        </Container>
       </Section>
     </>
   );
