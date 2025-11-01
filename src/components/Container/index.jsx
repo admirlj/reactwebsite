@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './Container.module.css';
 
-function Container({children, style = {}}) {
+function Container({ children, style = {}, ...rest }) {
   return (
-    <div style={style} className={styles.container}>
-        {children}
+    <div {...rest} style={style} className={styles.container}>
+      {children}
     </div>
-  )
+  );
 }
 
 export default Container
