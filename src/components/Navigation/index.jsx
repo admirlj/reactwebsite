@@ -39,12 +39,15 @@ export default function Navigation() {
         <div className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
           <div className={styles.menuContent}>
             <div className={styles.menuItem}>
+              <div className={styles.hoverElement}></div>
               <button onClick={() => handleNavigation("/")}>Home</button>
             </div>
             <div className={styles.menuItem}>
+              <div className={styles.hoverElement}></div>
               <button onClick={() => handleNavigation("/about")}>About</button>
             </div>
             <div className={styles.menuItem}>
+              <div className={styles.hoverElement}></div>
               <button onClick={() => handleNavigation("/projects")}>
                 Projects
               </button>
