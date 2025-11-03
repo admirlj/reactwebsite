@@ -15,6 +15,10 @@ const router = createBrowserRouter([
         index: true,
         Component: Homepage,
       },
+      {
+        path: "/about",
+        element: <p>About</p>,
+      },
     ],
   },
 ]);

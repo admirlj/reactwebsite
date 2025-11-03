@@ -10,7 +10,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 .logo {
@@ -18,21 +18,88 @@ nav {
 }
 
 .hamburger {
+  position: relative;
   cursor: pointer;
   width: 40px;
   height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 5px;
+  justify-content: center;
+
+  z-index: 1000;
 }
 
 .hamburger span {
   height: 2px;
   background: #fff;
+  width: 80%;
+  transition-duration: .5s;
+  transition-property: transform;
+  transform-origin: center;
+}
+
+.hamburger span:first-of-type{
+  position: absolute;
+  top: 40%;
+}
+.hamburger span:last-of-type{
+  position: absolute;
+  top: 60%;
+}
+
+.hamburger span:first-of-type.close{
+  top: 50%;
+  transform: rotate(45deg);
+}
+.hamburger span:last-of-type.close{
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+/* Menu START*/
+
+.menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+  background-color: var(--black-2);
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.menu.open {
+  display: flex;
+}
+
+.menuContent {
   width: 100%;
 }
+.menuItem {
+  border-top: 1px solid #222527;
+  border-bottom: 1px solid #222527;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.menuItem button {
+  color: #fff;
+  background-color: transparent;
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+}
+
+/* Menu END */
 
 @media (min-width: 640px) {
   .logo {
