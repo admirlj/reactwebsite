@@ -12,8 +12,8 @@ export default function Footer() {
         <div className={styles.left}>
           <div>
             <img className={styles.logo} src={logo} alt="logo image" />
-            <img className={styles.five} src={five} alt="five image" />
-            <img className={styles.clutch} src={clutch} alt="clutch image" />
+            {/* <img className={styles.five} src={five} alt="five image" />
+            <img className={styles.clutch} src={clutch} alt="clutch image" /> */}
           </div>
           <div>
             <p>

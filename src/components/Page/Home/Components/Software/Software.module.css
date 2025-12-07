@@ -59,7 +59,7 @@
 }
 
 .card .imageContainer {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 50%;
   width: 110px;
   height: 110px;

@@ -28,7 +28,7 @@ export default function Navigation() {
     <div className={styles.navigation}>
       <nav>
         <Link to="/">
-          <img className={styles.logo} src={logo} alt="main logo" />
+          <img className={styles.logo} src={logo} alt="Istra Transfer" />
         </Link>
 
         <div onClick={handleMenu} className={styles.hamburger}>

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./Software.module.css";
-import document from "../../../../../assets/document.png";
-import pen from "../../../../../assets/pen.png";
-import paper from "../../../../../assets/paper.png";
+import price from "../../../../../assets/best-price.png";
+import time from "../../../../../assets/waiting-time.png";
+import professionalism from "../../../../../assets/professionalism.png";
 import { Link } from "react-router";
 
 function Software() {
@@ -35,9 +35,9 @@ function Software() {
   return (
     <div className={styles.container}>
       <div className={styles.topContent}>
-        <h2>Creating impactful medtech software</h2>
+        <h2>Reliable taxi & transfer service in Croatia</h2>
         <Link to={"/"} className={styles.button}>
-          Working at Company
+          Book now
         </Link>
       </div>
       <div className={styles.cards}>
@@ -49,12 +49,11 @@ function Software() {
           } `}
         >
           <div className={styles.imageContainer}>
-            <img src={document} alt="icon 1" />
+            <img src={price} alt="icon 1" />
           </div>
-          <h3>Analysis & Strategy</h3>
+          <h3>Best Price Guarantee</h3>
           <p>
-            We begin by getting to know your business challenges. We want to
-            know everything!
+            Transparent pricing and exceptional service every time you travel.
           </p>
         </div>
 
@@ -66,12 +65,12 @@ function Software() {
           } `}
         >
           <div className={styles.imageContainer}>
-            <img src={pen} alt="icon 1" />
+            <img src={time} alt="icon 1" />
           </div>
-          <h3>Design & Prototyp</h3>
+          <h3>Waiting Time</h3>
           <p>
-            Mockups AND usability tests are first "techical" part, You’ll see
-            what we’ll build before we start.
+            Your driver waits for you flights, meetings, or tours with flexible
+            time allowances and no stress.
           </p>
         </div>
 
@@ -83,12 +82,12 @@ function Software() {
           } `}
         >
           <div className={styles.imageContainer}>
-            <img src={paper} alt="icon 1" />
+            <img src={professionalism} alt="icon 1" />
           </div>
-          <h3>Engineer & Develop</h3>
+          <h3>Professionalism</h3>
           <p>
-            React, angular, spring boot, .net, FHIR, hl7, his integrations. we
-            will do anything to achieve the roadmap.
+            Professionalism You Can Trust, making every trip smooth and
+            enjoyable from airport to destination.
           </p>
         </div>
       </div>

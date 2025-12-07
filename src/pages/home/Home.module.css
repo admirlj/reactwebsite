@@ -9,7 +9,29 @@
 }
 
 h1 {
-  font-size: 68px;
+  font-size: 48px;
+}
+
+.button {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: var(--blue-1);
+  padding: 14px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black-2);
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  border: 1px solid var(--blue-1);
+  background-color: var(--blue-2);
+  color: black;
+}
+
+.button:active {
+  transform: scale(0.99);
 }
 
 @keyframes myAnimation {

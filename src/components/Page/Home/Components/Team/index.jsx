@@ -47,23 +47,32 @@ export default function Team() {
           }`}
         >
           <p>
-            Think of the most groundbreaking and successful software solutions.
-            They are innovative, reliable, and transformative.
+            Think of the most seamless and memorable journeys they’re
+            comfortable, dependable, and effortless. That’s no coincidence
+            precision, professionalism, and care are the foundation of our
+            transfer service at Moj Kodeks.
           </p>
           <p>
-            That's not by accident – technical excellence and visionary thinking
-            are the cornerstones of our work at Brainit.
+            We believe that exceptional travel begins with genuine hospitality
+            and smart logistics. Every detail from the first booking to the
+            final destination is handled with care, ensuring you arrive relaxed,
+            refreshed, and right on time.
           </p>
           <p>
-            We believe that every great project starts with a strong
-            collaboration between people and technology, creating powerful and
-            lasting impacts. Our expertise combines intuition and strategy,
-            underpinned by rigorous research and cutting-edge technology.
+            With experienced drivers, a premium fleet, and a dedication to
+            personalized service, Moj Kodeks connects airports, cities, and
+            experiences across Croatia, Italy, and beyond. Whether you’re
+            catching a flight, attending a meeting, or discovering new places,
+            we make every journey as effortless as it is elegant.
+          </p>
+          <p>
+            Driven by reliability and defined by comfort, Moj Kodeks transforms
+            transfers into experiences worth remembering.
           </p>
 
-          <p>
+          {/* <p>
             <Link to={"/about"}>meet the team meet the team</Link>
-          </p>
+          </p> */}
         </div>
       </div>
       <div className={styles.imageContainer}>
