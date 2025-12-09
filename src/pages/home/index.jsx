@@ -6,11 +6,17 @@ import circle from "../../assets/circle.png";
 import Team from "../../components/Page/Home/Components/Team";
 import Software from "../../components/Page/Home/Components/Software";
 import { Link } from "react-router";
+import { useMediaQuery } from "react-responsive";
 
 export default function Homepage() {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1024px)" });
+
   return (
     <>
-      <Section id={"hero"} style={{ position: "sticky", top: "0px" }}>
+      <Section
+        id={"hero"}
+        style={{ position: isTabletOrMobile ? "static" : "sticky", top: "0px" }}
+      >
         <Container>
           <div className={styles.hero}>
             <div className={styles.animateContainer}>
